@@ -1,0 +1,13 @@
+/home/gleb/polytech_practice/Practice_1/type_information/bin/Debug/netcoreapp3.1/type_information
+/home/gleb/polytech_practice/Practice_1/type_information/bin/Debug/netcoreapp3.1/type_information.deps.json
+/home/gleb/polytech_practice/Practice_1/type_information/bin/Debug/netcoreapp3.1/type_information.runtimeconfig.json
+/home/gleb/polytech_practice/Practice_1/type_information/bin/Debug/netcoreapp3.1/type_information.runtimeconfig.dev.json
+/home/gleb/polytech_practice/Practice_1/type_information/bin/Debug/netcoreapp3.1/type_information.dll
+/home/gleb/polytech_practice/Practice_1/type_information/bin/Debug/netcoreapp3.1/type_information.pdb
+/home/gleb/polytech_practice/Practice_1/type_information/obj/Debug/netcoreapp3.1/type_information.csprojAssemblyReference.cache
+/home/gleb/polytech_practice/Practice_1/type_information/obj/Debug/netcoreapp3.1/type_information.AssemblyInfoInputs.cache
+/home/gleb/polytech_practice/Practice_1/type_information/obj/Debug/netcoreapp3.1/type_information.AssemblyInfo.cs
+/home/gleb/polytech_practice/Practice_1/type_information/obj/Debug/netcoreapp3.1/type_information.csproj.CoreCompileInputs.cache
+/home/gleb/polytech_practice/Practice_1/type_information/obj/Debug/netcoreapp3.1/type_information.dll
+/home/gleb/polytech_practice/Practice_1/type_information/obj/Debug/netcoreapp3.1/type_information.pdb
+/home/gleb/polytech_practice/Practice_1/type_information/obj/Debug/netcoreapp3.1/type_information.genruntimeconfig.cache
