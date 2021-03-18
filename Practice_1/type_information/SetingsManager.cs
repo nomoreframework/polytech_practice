@@ -24,6 +24,10 @@ namespace type_information
         protected internal readonly string SELECT_TYPE = "Выберите тип:\n";
         protected internal readonly string TYPE_MENY_HEADER = "Информация по типу:" + t.Name;
         protected internal readonly string METHODS_MENY_HEADER = "Нажмите ‘M’ для вывода дополнительной информации по методам " + t.Name + ":";
+        protected internal readonly string METHOTDS_OF_TYPE = "Методы типа " + t.Name + ":" + "\n";
+        protected internal readonly string METHOD_NAME = "Название";
+        protected internal readonly string COUNT_OF_OVERLOAD = "Число перегрузок";
+        protected internal readonly string COUNT_OF_PARAMS = "Число параметров";
 
         protected internal Dictionary<string, Signature> type_methods_info;
         protected Dictionary<string, Signature> get_type_methods_info()

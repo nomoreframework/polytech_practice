@@ -7,6 +7,7 @@ namespace type_information
         internal const string ASM_MENU_HEADER = "Общая информация по типам:\n";
         internal const string RETURN_TO_MAIN_MENU = "Вернуться в главное меню: 0";
         internal const string ARGS_EXEPTION = "Invalid comand line argument ";
+       
         internal readonly static string[] main_menu = new string[4]{
             "Выход из программы: ",
             "Общая информация по типам: ",

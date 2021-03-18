@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace type_information
 {
-    internal class AsmInfoManager : IAsmInfoManager<Dictionary<string, string>>
+    internal class AsmInfoManager: IAsmInfoManager<Dictionary<string, string>>
     {
         public Dictionary<string, string> Asm_info_storage { get; private set; }
 

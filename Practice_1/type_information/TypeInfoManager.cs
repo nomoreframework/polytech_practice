@@ -24,9 +24,13 @@ namespace type_information
         }
         private void getMethodsInfo(Action<string> write, Read read)
         {
+            string spaces = new string(' ', 10);
+            write(METHOD_NAME + spaces + COUNT_OF_OVERLOAD + spaces + COUNT_OF_PARAMS);
             foreach (var m in get_type_methods_info())
             {
-                write(m.Key + m.Value._overloads + m.Value._parametrs);
+                write((m.Key + new string(' ', METHOD_NAME.Length + spaces.Length - m.Key.Length)) 
+                      +( m.Value._overloads + new string(' ', COUNT_OF_OVERLOAD.Length + spaces.Length - m.Value._overloads.Length))
+                      + (m.Value._parametrs + new string(' ', COUNT_OF_PARAMS.Length + spaces.Length - m.Value._parametrs.Length)));
             }
             write(CLIStringsStorage.RETURN_TO_MAIN_MENU);
             char r = read();
