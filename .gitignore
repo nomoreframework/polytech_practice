@@ -32,8 +32,6 @@ bld/
 TestResult.xml
 nunit-*.xml
 
-# Benchmark Results
-BenchmarkDotNet.Artifacts/
 
 # .NET Core
 project.lock.json
