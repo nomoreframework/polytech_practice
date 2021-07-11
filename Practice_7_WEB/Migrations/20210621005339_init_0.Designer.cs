@@ -9,8 +9,8 @@ using Practice_7_WEB.Models;
 namespace Practice_7_WEB.Migrations
 {
     [DbContext(typeof(DBContext))]
-    [Migration("20210617034437_int_0")]
-    partial class int_0
+    [Migration("20210621005339_init_0")]
+    partial class init_0
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

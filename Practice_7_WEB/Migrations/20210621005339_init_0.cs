@@ -2,7 +2,7 @@
 
 namespace Practice_7_WEB.Migrations
 {
-    public partial class int_0 : Migration
+    public partial class init_0 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

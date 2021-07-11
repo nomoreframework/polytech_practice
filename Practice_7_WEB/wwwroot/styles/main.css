@@ -1,0 +1,26 @@
+﻿.instr-types{
+    border:1px #ccc solid;
+}
+.flex-container {
+    padding: 25px;
+    display: flex;
+}
+.flex-item {
+    text-align:center;
+    font-size: 1em;
+    padding: 1.5em;
+    border: 1px solid black;
+    width: 50%;
+}
+.types{
+    justify-content: space-between;
+}
+.instruments{
+    height: 50%;
+}
+.count{
+    position:absolute;
+}
+li{
+    border: 1px solid rgb(0, 0, 0);
+}

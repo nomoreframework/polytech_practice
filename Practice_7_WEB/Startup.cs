@@ -10,7 +10,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Practice_7_WEB.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
+using Practice_7_WEB.Services.InitialDBService;
 
 namespace Practice_7_WEB
 {
@@ -37,13 +39,23 @@ namespace Practice_7_WEB
             }
             app.UseHttpsRedirection();
             app.UseRouting();
+            app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                FileProvider = new PhysicalFileProvider(
+           Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot")),
+                RequestPath = new PathString("")
+            });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.Map("/", async  context =>
+                  await Task.Run(() => context.Response.Redirect("/index.html"))
+                );
+            });
 
             app.UseEndpoints(endpoints =>
             {
-                app.UseEndpoints(endpoints =>
-                {
-                    endpoints.MapControllers();
-                });
+                 endpoints.MapControllers();
             });
         }
     }
